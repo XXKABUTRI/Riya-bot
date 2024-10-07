@@ -3,7 +3,7 @@ module.exports.config = {
   name: "goibot",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+  credits: "riya Roy",
   description: "goibot",
   commandCategory: "Noprefix",
   usages: "noprefix",
@@ -225,7 +225,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   
   if (event.body.indexOf("Bot") == 0 || (event.body.indexOf("bot") == 0)) {
     var msg = {
-      body: `☞︎💖 ${name} 💖☜︎   \n『 ☞︎ [ ${rand} ] ☜︎ 』\n ☞︎*★᭄𝕆𝕎ℕ𝔼ℝ ཫ༄𒁍≛⃝𝐌𝐢𝐒𝐬.𝐑𝐢𝐘𝐚 𝐑𝐨𝐘💖💖....☜︎`
+      body: `☞︎💖🕊️[ ${name} ]🕊️💖☜︎     \n\n『 ☞︎ [ ${rand} ] ☜︎ 』   \n\n ☞︎*★᭄𝕆𝕎ℕ𝔼ℝ ཫ༄𒁍≛⃝𝐌𝐢𝐒𝐬.𝐑𝐢𝐘𝐚 𝐑𝐨𝐘💖💖....☜︎`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
