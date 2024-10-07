@@ -16,7 +16,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
     var msg = {
         body: "👸 𝐎𝐖𝐍𝐄𝐑÷ 𝗥𝗶𝗬𝗮 𝗥𝗼𝗬 👸",
         attachment: 
-fs.createReadStream(__dirname + `/noprefix/profile.png`)
+fs.createReadStream(__dirname + `/noprefix/riya2.png`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("👸", event.messageID, (err) => {}, true)
