@@ -12,12 +12,12 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("😘")==0 || event.body.indexOf("kiss")==0 || event.body.indexOf("chumma")==0 || event.body.indexOf("chumu")==0) {
+	if (event.body.indexOf("😘")==0 || event.body.indexOf("kiss")==0 || event.body.indexOf("chumma")==0 || event.body.indexOf("💋")==0) {
 		var msg = {
-				body: "Ummmmmmaaaahhhhhh😘😘 Baby 😘",
+				body: "🍓🍓...𝐔𝐦𝐌𝐚𝐀𝐚𝐀𝐚𝐀𝐚 😘 𝐉𝐚𝐍𝐮..😘😘",
 			}
 			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("😘", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🤩", event.messageID, (err) => {}, true)
 		}
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
