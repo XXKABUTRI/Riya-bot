@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "info",
 	version: "1.0.1", 
 	hasPermssion: 0,
-	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+	credits: "Riya Roy",
 	description: "Admin and Bot info.",
 	commandCategory: "...",
 	cooldowns: 1,
@@ -24,36 +24,36 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
-["https://i.imgur.com/eDbdlvd.jpg"];
-var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿)🇮🇳 𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🇮🇳 
-(⌐▀͡ ̯ʖ▀)︻̷┻̿═━一-
+["https://i.imgur.com/Uh2GF7H.jpeg" , "https://i.imgur.com/3e0sHWW.jpeg"];
+var callback = () => api.sendMessage({body:`🌹𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍FO 🌹
 
-☄️Bot Name︎︎︎☄️  ${global.config.BOTNAME}
+𝗕𝗢𝗧 𝗡𝗔𝗠𝗘÷
+♪♪♪♪♪♪♪『 ☞︎︎︎ ${global.config.BOTNAME} ☜︎︎︎ 』.♪♪♪♪♪♪♪
 
-🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ ℙ𝕣𝕚𝕪𝕒𝕟𝕤𝕙💔🥀
-
-🙈bot andmin owner facebook id link🙈➪ www.facebook.com/priyanshu.rajput.official 💞🕊️
-
-👋For Any Kind Of Help Contact On Telegram  Username 👉 @Priyanshrajput😇
+╭───────────╮
+🌻𝐎𝐖𝐍𝐄𝐑 ꧁☞︎🍒💖𝐑𝐢𝐘𝐚 𝐑𝐨𝐘💖🍒☜︎꧂
+╰───────────╯ ╭────────────╮
+🥀𝐁𝐎𝐓 𝐀𝐃𝐌𝐈𝐍 ꧁☞︎💖👑 𝐊𝐚𝐁𝐮𝐓𝐫𝐈 👑💖☜︎꧂ 🤸  💞 
+╰────────────╯
+🍇𝐎𝐖𝐍𝐄𝐑 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐋𝐈𝐍𝐊🍇
+───────https://www.facebook.com/yi.riya.roya.apane.lav?mibextid=ZbWKwL
 
 ✧══════•❁❀❁•══════✧
 
-🌸Bot Prefix🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
+💖𝗕𝗢𝗧 𝗣𝗥𝗘𝗙𝗜𝗫💖☞︎︎︎ [ ${global.config.PREFIX} ] ☜︎︎︎
 
-♥️Bot Owner♥️ ☞︎︎︎☜︎︎︎✰ 𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭
+🕊️ 𝗨𝗣𝗧𝗜𝗠𝗘 🕊️
 
-🥳UPTIME🥳
+🕊️𝗧𝗼𝗱𝗮𝘆 𝗜𝘀🕊️ ☞︎︎︎ [ ${juswa} ] ☜︎︎︎
 
-🌪️Today is🌪️ ☞︎︎︎☜︎︎︎✰ ${juswa} 
+⚡𝗕𝗼𝘁 𝗜𝘀 𝗥𝘂𝗻𝗶𝗻𝗴⚡ ☞︎︎︎ [ ${hours}:${minutes}:${seconds}. ] ☜︎︎︎
 
-⚡Bot is running⚡ ${hours}:${minutes}:${seconds}.
-
-✅Thanks for using ${global.config.BOTNAME} Bot🖤
+💖💖💖💖💖𝗧𝗵𝗻𝗸 𝘆𝗼𝘂 𝘀𝗼 𝗺𝘂𝗰𝗵 𝗴𝘂𝘆𝘀💖💖💖💖
 
 
 🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
 ┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
-🌸✦✧✧✧✧✰🍒ℙ𝕣𝕚𝕪𝕒𝕟𝕤𝕙🌿✰✧✧✧✧✦🌸
+🌸✦✧✧✧✧✰🍒🅁🄸🅈🄰🌿✰✧✧✧✧✦🌸
 ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
 
 
