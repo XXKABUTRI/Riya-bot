@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("I Love you") ||
 react.includes("Bot i love you")) {
 		var msg = {
-				body: `💖💋🍒𝐈 𝐋𝐎𝐕𝐄 𝐘𝐎𝐔 𝐓𝐎𝐎 𝐉𝐀𝐀𝐍🍒💋💖`,attachment: fs.createReadStream(__dirname + `/ravi/love.gif`)
+				body: `💖💋🍒𝐈 𝐋𝐎𝐕𝐄 𝐘𝐎𝐔 𝐓𝐎𝐎 𝐉𝐀𝐀𝐍🍒💋💖`,attachment: fs.createReadStream(__dirname + `/wall/love.webp`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😘", event.messageID, (err) => {}, true)
