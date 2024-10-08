@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "approve",
 	version: "1.0.2",
 	hasPermssion: 2,
-	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+	credits: "𝗥𝗶𝘆𝗮 𝗥𝗼𝘆",
 	description: "approve the gc using bots xD",
 	commandCategory: "Admin",
     cooldowns: 5
@@ -100,12 +100,11 @@ module.exports.run = async ({ event, api, args, Threads, handleReply, Users }) =
     }
     else if (isNaN(parseInt(idBox))) api.sendMessage("[ ERR ] The ID you entered is not valid", threadID, messageID);
     else if (data.includes(idBox)) api.sendMessage(`[ - ] ID ${idBox} pre-approved!`, threadID, messageID);
-   	else api.sendMessage("[ OK ] ✨ApKa Group Approved Kar Diya Hai🙌.\n 🖤So Enjoy\n\n 💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞𝕻𝖗𝖎𝖞𝖆𝖓𝖘𝖍 𝕽𝖆𝖏𝖕𝖚𝖙☜ 💫\n 🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 〠ℙ𝕣𝕚𝕪𝕒𝕟𝕤𝕙🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ www.facebook.com/profile.php?id=100037743553265\n👋For Any Kind Of Help Contact On Telegram  Username 👉 @Priyanshrajput😇", idBox, (error, info) => {
-   		api.changeNickname(` 〖 ${global.config.PREFIX} 〗 ➺ ${(!global.config.BOTNAME) ? "" : global.config.BOTNAME}`, idBox, global.data.botID);
+   	else api.sendMessage("🍓[ 𝐎𝐊 ] ✨𝐀𝐀𝐏𝐊𝐀 𝐆𝐑𝐎𝐔𝐏 𝐀𝐏𝐏𝐑𝐎𝐕𝐄𝐃 𝐊𝐀𝐑 𝐃𝐈𝐘𝐀 𝐇𝐀𝐈 🍒\n✧═════════•❁❀❁•═════════✧\n💝🇸 🇴  🇪 🇳 🇯 🇴 🇾 💝\n✧═════════•❁❀❁•═════════✧\n💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞🆁🄸🆈🄰  🆁🄾🆈☜︎💝\n✧═════════•❁❀❁•═════════✧\n💖 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 〠ℝ𝕀𝕐𝔸 ℝ𝕆𝕐\n✧═════════•❁❀❁•═════════✧\n💖 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 🍓:- ☞https://www.facebook.com/yi.riya.roya.apane.lav?mibextid=ZbWKwL\n✧═════════•❁❀❁•═════════✧\n🍓🍓💝 𝙼𝙰𝚂𝚃𝙸 𝙺𝙰𝚁𝙾 𝙼𝙴𝚁𝙴 𝚂𝙰𝚃𝙷 𝙾𝚁 𝙺𝙷𝚄𝚂𝙷 𝚁𝙴𝙷𝙴 𝙰𝙰𝙿𝙺𝙸 𝙿𝚈𝙰𝚁𝙸 𝚁𝙸𝚈𝙰 𝚁𝙾𝚈 🍓💝🍒💓", idBox, (error, info) => {		api.changeNickname(` 〖 ${global.config.PREFIX} 〗 ➺ ${(!global.config.BOTNAME) ? "" : global.config.BOTNAME}`, idBox, global.data.botID);
       const axios = require('axios');
 	const request = require('request');
 	const fs = require("fs");
-   let admID = "100037743553265";    
+   let admID = "61555796837996";    
   
       api.getUserInfo(parseInt(admID), (err, data) => {
       if(err){ return console.log(err)}
@@ -115,9 +114,7 @@ module.exports.run = async ({ event, api, args, Threads, handleReply, Users }) =
       axios.get('https://anime.apibypriyansh.repl.co/img/anime').then(res => {
 	let ext = res.data.url.substring(res.data.url.lastIndexOf(".") + 1);
 	let callback = function () {
-      api.sendMessage({body: `❒❒ BOT ARE NOW CONNECTED ❒❒\n=====================\n┏━━━━ 🖤 ━━━━┓
-  ✦❥⋆⃝ℙ𝕣𝕚𝕪𝕒𝕟𝕤𝕙 ✦ 
-┗━━━    🖤 ━━━━┛\n=====================\n➪ BOT: ${global.config.BOTNAME}\n➪ Prefix: ${global.config.PREFIX}\n➪ Users: ${global.data.allUserID.length}\n➪ Groups: ${global.data.allThreadID.length}\n=====================\n[]---------------------------------------[]\nUse '${global.config.PREFIX}Help' T0o View The Commands That Available!(ღ˘⌣˘ღ)\n[]---------------------------------------[]\n⌨ Made by: ${firstname}\n`, mentions: [{
+      api.sendMessage({body: `❒❒ BOT ARE NOW CONNECTED ❒❒\n=====================\n┏━━━━ 🖤 ━━━━┓✦❥⋆⃝ℝ𝕀𝕐𝔸 ℝ𝕆𝕐 ✦ ┗━━━    🖤 ━━━━┛\n=====================\n➪ BOT: ${global.config.BOTNAME}\n➪ Prefix: ${global.config.PREFIX}\n➪ Users: ${global.data.allUserID.length}\n➪ Groups: ${global.data.allThreadID.length}\n=====================\n[]---------------------------------------[]\nUse '${global.config.PREFIX}Help' T0o View The Commands That Available!(ღ˘⌣˘ღ)\n[]---------------------------------------[]\n⌨ Made by: ${firstname}\n`, mentions: [{
                            tag: firstname,
                            id: admID,
                            fromIndex: 0,
@@ -132,7 +129,7 @@ module.exports.run = async ({ event, api, args, Threads, handleReply, Users }) =
    		else {
    			data.push(idBox);
    			fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
-   			api.sendMessage(`[ OK ] Successfully Approved The Box (◕‿◕):\n${idBox}`, threadID, () => {
+   			api.sendMessage(`🍓🍒 [ 𝗢𝗞 ] 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬 𝗔𝗣𝗣𝗥𝗢𝗩𝗘𝗗 𝗧𝗛𝗔 𝗕𝗢𝗫  (◕‿◕):\n${idBox} 💖🍓💝🍒`, threadID, () => {
           dataP.splice(dataP.indexOf(idBox), 1);
     		fs.writeFileSync(dataPending, JSON.stringify(dataP, null, 2));
     	}, messageID)
