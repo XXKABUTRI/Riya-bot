@@ -3,7 +3,7 @@ module.exports.config = {
 	name: "Khana",
     version: "1.1.1",
 	hasPermssion: 0,
-	credits: "RAVI KUMAR", 
+	credits: "Riya Roy", 
 	description: "Just Respond",
 	commandCategory: "ravi",
     cooldowns: 5, 
@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("dinner") ||
 react.includes("kha lo")) {
 		var msg = {
-				body: `🙂 आओ बेबी मेरे साथ खा लो खाना 🙂`,attachment: fs.createReadStream(__dirname + `/ravi/khana.gif`)
+				body: `🙂 आओ बेबी मेरे साथ खा लो खाना 🙂`,attachment: fs.createReadStream(__dirname + `/wall/khana.webp`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🍲", event.messageID, (err) => {}, true)
