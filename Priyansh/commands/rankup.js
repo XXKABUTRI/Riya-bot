@@ -2,7 +2,7 @@ module.exports.config = {
 	name: "rankup",
 	version: "7.3.1",
 	hasPermssion: 1,
-	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+	credits: "Riya Roy",
 	description: "Announce rankup for each group, user",
 	commandCategory: "Edit-IMG",
 	dependencies: {
@@ -105,7 +105,7 @@ module.exports.languages = {
 		"on": "on",
 		"off": "off",
 		"successText": "success notification rankup!",
-		"levelup": "{name}, your keyboard has reached level {level}",
+		"levelup": "🌿🍒🌸🍓𝗢𝘄𝗻𝗲𝗿÷𝗥𝗶𝗬𝗮 𝗥𝗼𝗬🍓🌸🍒🌿\n✧═════════•❁❀❁•═════════✧\n🍒🍓☞︎ [ {name} ] ☜︎🍓🍒\n✧═════════•❁❀❁•═════════✧\n𝗬𝗲 𝗟𝗼 𝗔𝗮𝗣𝗸𝗔 𝗟𝗲𝗩𝗲𝗟 🪷😍☞︎ [ {level} ] ☜︎😍🪷 , 𝗢𝗿 𝗠𝗲𝗥𝗲 𝗦𝗮𝗧𝗵 𝗞𝗵𝗨𝘀𝗛 𝗥𝗲𝗛𝗲 𝗛𝗼.....🍒🌿🍒🌿🍒",
 	}
 }
 
@@ -119,4 +119,4 @@ module.exports.run = async function({ api, event, Threads, getText }) {
 	await Threads.setData(threadID, { data });
 	global.data.threadData.set(threadID, data);
 	return api.sendMessage(`${(data["rankup"] == true) ? getText("on") : getText("off")} ${getText("successText")}`, threadID, messageID);
-                    }
+}
