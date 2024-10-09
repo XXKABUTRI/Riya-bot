@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("KISS") ||
 react.includes("💋")) {
 		var msg = {
-				body: `💋💋💋...𝗨𝗺𝗺𝗮𝗮𝗮𝗮 𝗕𝗲𝗕𝘆....💋💋💋`,attachment: fs.createReadStream(__dirname + `/wall/khana.webp`)
+				body: `💋💋💋...𝗨𝗺𝗺𝗮𝗮𝗮𝗮 𝗕𝗲𝗕𝘆....💋💋💋`,attachment: fs.createReadStream(__dirname + `/wall/kiss.webp`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("💋", event.messageID, (err) => {}, true)
