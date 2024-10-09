@@ -166,10 +166,10 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("🌿🌸🍒....𝐌𝐮𝐇 𝐁𝐚𝐍𝐝 𝐊𝐚𝐑𝐨 𝐕𝐚𝐑𝐧𝐀 𝐌𝐚𝐊𝐤𝐇𝐢 𝐆𝐡𝐔𝐬 𝐉𝐚𝐘𝐠𝐈 ___ 🤓🤭😝", threadID);
    };
 
-   if ((event.body.toLowerCase() == "🥰") || (event.body.toLowerCase() == "😍") || (event.body.toLowerCase() == "😻") || (event.body.toLowerCase() == "❤️")) {
-     return api.sendMessage("🍓🍒🍓🍒", threadID);
+   if ((event.body.toLowerCase() == "🥰") || (event.body.toLowerCase() == "🥰🥰") ||(event.body.toLowerCase() == "🥰🥰🥰") || (event.body.toLowerCase() == "🥰🥰🥰🥰") || (event.body.toLowerCase() == "😍") || (event.body.toLowerCase() == "😍😍") || (event.body.toLowerCase() == "😍😍😍") || (event.body.toLowerCase() == "😍😍😍😍") || (event.body.toLowerCase() == "🤩") || (event.body.toLowerCase() == "🤩🤩") || (event.body.toLowerCase() == "🤩🤩🤩") || (event.body.toLowerCase() == "🤩🤩🤩🤩") || (event.body.toLowerCase() == "❤️") || (event.body.toLowerCase() == "❤️❤️") || (event.body.toLowerCase() == "❤️❤️❤️") || (event.body.toLowerCase() == "❤️❤️❤️❤️") || (event.body.toLowerCase() == "😻") || (event.body.toLowerCase() == "😻😻") ||  (event.body.toLowerCase() == "😻😻😻") ||  (event.body.toLowerCase() == "😻😻😻😻")) {
+     return api.sendMessage("😻❤️🤩...𝗛𝗮𝗬 𝗕𝗲𝗕𝘆, 𝗘𝘁𝗡𝗮 𝗣𝘆𝗔𝗿...🙈🍓🕊️", threadID);
    };
-
+  
    if ((event.body.toLowerCase() == "kese ho") || (event.body.toLowerCase() == "kaise ho") || (event.body.toLowerCase() == "kese ho ji") || (event.body.toLowerCase() == "how are you") || (event.body.toLowerCase() == "how are you?")) {
      return api.sendMessage("M Tabhi Accha hota hu, Jab Apko Hasta Huye Dekhta hu☺️", threadID);
    };
