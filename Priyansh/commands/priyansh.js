@@ -19,10 +19,10 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL })
     }
 
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("@Priyansh Rajput")==0 || event.body.indexOf("@𝐓ɽ͜͡𝐮𝐬ʈ 𝐌̽𝐞 𝐁𝐚͜͡𝐛ɣ̈̈›› 𝐈 𝐖ɪ̽ɭɭ ဗီူံ ๛⃝𓆩𝐁ɽ͜͡𝐞̽ɑ̽𝐤 𝐘ǿ𝐮̽ɾ 𝐇𝐞̽𝐚͜͡𝐫ʈﮩﮩــﮩــــ𓆩  𓆪〘̶𑁍 〘̶𑁍𓆩⃝P̶R̶I̶Y̶A̶N̶S̶H̶𓆪 † 』𓆩๏̬̬̬̬̬̬𓆪†『٭𝐱͜͡⃝ᴆ』†٭❯")==0 || event.body.indexOf("@Prîyánsh Rajpût")==0 || event.body.indexOf("Priyansh")==0) {
+	if (event.body.indexOf("Riya")==0 || event.body.indexOf("@गर्मी'आ'गयी-यार कोई'एसी चला'दो- हाय'गर्मी")==0 || event.body.indexOf("RIYA")==0 || event.body.indexOf("Kabutri")==0) {
 		var msg = {
-				body: "Prîyansh ✨💖🥀",
-				attachment: fs.createReadStream(__dirname + `/noprefix/Priyansh.png`)
+				body: "😻🍓🍒𝗥𝗶𝗬𝗮 𝗥𝗼𝗬✨💖🥀",
+				attachment: fs.createReadStream(__dirname + `/wall/f5a64f92a4d61223bbede60244cac2cb.jpg`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("💔", event.messageID, (err) => {}, true)
