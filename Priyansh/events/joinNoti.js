@@ -32,7 +32,7 @@ module.exports.run = async function({ api, event }) {
 		api.changeNickname(`{ ${global.config.PREFIX} } × ${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 		const fs = require("fs");
 		return api.sendMessage("Hello Everyone🙋‍♂️ 𝐁𝐨𝐭 𝐢𝐬 𝐍𝐨𝐰 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝⛓️", event.threadID, () => api.sendMessage({body:`🍒💙•••𝐋𝐨 𝐌𝐞 𝐀𝐚 𝐆𝐚𝐘𝐢 𝐀𝐚𝐩𝐊𝐢 𝐏𝐲𝐀𝐫𝐈 𝐑𝐢𝐘𝐚 𝐉𝐚𝐋𝐝𝐈 𝐒𝐢 𝐖𝐞𝐋𝐜𝐎𝐦𝐄 𝐊𝐚𝐑𝐨 𝐌𝐞𝐑𝐚 •••💞🌿\n✧═════════•❁❀❁•═════════✧\n🍒💙•••𝐎𝐫 𝐌𝐞𝐑𝐞 𝐏𝐲𝐀𝐫𝐄 𝐃𝐨𝐒𝐭𝐎 𝐑𝐢𝐘𝐚 𝐑𝐨𝐘 𝐊𝐞 𝐏𝐚𝐒 𝐑𝐞𝐐𝐮𝐄𝐬𝐓 𝐁𝐡𝐄𝐣 𝐃𝐨•••💞🍓\n✧═════════•❁❀❁•═════════✧\n🍒💙•••https://www.facebook.com/yi.riya.roya.apane.lav?mibextid=ZbWKwL•••💞💝\n✧═════════•❁❀❁•═════════✧\n\n𝗽𝗿𝗲𝗳𝗶𝘅 => 👉 [ ${global.config.PREFIX} ] 👈\n✧═════════•❁❀❁•═════════✧\n┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓🌸✦✧✧✧✧✰🍒🇷 🇮 🇾 🇦 🌿✰✧✧✧✧✦🌸  ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
-`, attachment: fs.createReadStream(__dirname + "/cache/botjoin.mp4")} ,threadID));
+`, attachment: fs.createReadStream(__dirname + "/cache/botjond.mp4")} ,threadID));
 	}
 	else {
 		try {
