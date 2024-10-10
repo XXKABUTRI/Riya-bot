@@ -31,8 +31,7 @@ module.exports.run = async function({ api, event }) {
 	if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
 		api.changeNickname(`{ ${global.config.PREFIX} } × ${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 		const fs = require("fs");
-		return api.sendMessage("Hello Everyone🙋‍♂️ 𝐁𝐨𝐭 𝐢𝐬 𝐍𝐨𝐰 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝⛓️", event.threadID, () => api.sendMessage({body:`🍒💙•••𝐋𝐨 𝐌𝐞 𝐀𝐚 𝐆𝐚𝐘𝐢 𝐀𝐚𝐩𝐊𝐢 𝐏𝐲𝐀𝐫𝐈 𝐑𝐢𝐘𝐚 𝐉𝐚𝐋𝐝𝐈 𝐒𝐢 𝐖𝐞𝐋𝐜𝐎𝐦𝐄 𝐊𝐚𝐑𝐨 𝐌𝐞𝐑𝐚 •••💞🌿\n✧═════════•❁❀❁•═════════✧\n🍒💙•••𝐎𝐫 𝐌𝐞𝐑𝐞 𝐏𝐲𝐀𝐫𝐄 𝐃𝐨𝐒𝐭𝐎 𝐑𝐢𝐘𝐚 𝐑𝐨𝐘 𝐊𝐞 𝐏𝐚𝐒 𝐑𝐞𝐐𝐮𝐄𝐬𝐓 𝐁𝐡𝐄𝐣 𝐃𝐨•••💞🍓\n✧═════════•❁❀❁•═════════✧\n🍒💙•••https://www.facebook.com/yi.riya.roya.apane.lav?mibextid=ZbWKwL•••💞💝\n✧═════════•❁❀❁•═════════✧\n\n𝗽𝗿𝗲𝗳𝗶𝘅 => 👉 [ ${global.config.PREFIX} ] 👈\n✧═════════•❁❀❁•═════════✧\n┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓🌸✦✧✧✧✧✰🍒🇷 🇮 🇾 🇦 🌿✰✧✧✧✧✦🌸  ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
-`, attachment: fs.createReadStream(__dirname + "/cache/botjond.mp4")} ,threadID));
+		return api.sendMessage("𝗛𝗘𝗟𝗟𝗢 𝗘𝗩𝗘𝗥𝗬𝗢𝗡𝗘 🙋‍♂️ 𝗞𝗔𝗕𝗨𝗧𝗥𝗜 𝗕𝗢𝗧 𝗜𝗦 𝗡𝗢𝗪 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 ⛓️💝🕊️🍓", event.threadID, () => api.sendMessage({body:`🌹🪷🌸...𝗞𝗮𝗕𝘂𝗧𝗿𝗜  𝗕𝗼𝗧...🌸🪷🌹\n✧═════════•❁❀❁•═════════✧\n💝𝗢𝘄𝗻𝗲𝗿÷ ☞︎ [ ꧁ 𝐑𝐈𝐘𝐀 𝐑𝐎𝐘 ꧂ ] ☜︎ 😍😘\n✧═════════•❁❀❁•═════════✧\n🩷🖤🇪 🇳 🇹 🇦 🇷 🖤🩷\n✧═════════•❁❀❁•═════════✧\n🍒🕊️🍓..𝙻𝙾 𝙼𝙴 𝙰𝙰 𝙶𝚈𝙸 𝙰𝙰𝙿𝙺𝙸 𝙿𝚈𝙰𝚁𝙸 𝙺𝙰𝙱𝚄𝚃𝚁𝙸 𝙱𝙾𝚃 𝙰𝙱 𝙹𝙰𝙻𝙳𝙸 𝙹𝙰𝙻𝙳𝙸 𝚂𝙴 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙺𝙰𝚁𝙾 𝙼𝙴𝚁𝙰 𝙴𝚅𝙴𝚁𝚈𝙾𝙽𝙴..🍒🕊️🍓\n✧═════════•❁❀❁•═════════✧\n💖🙈💝..𝕆ℝ 𝕄𝔼ℝ𝕀 𝔹𝕆𝕊𝕊 ℝ𝕀𝕐𝔸 ℝ𝕆𝕐  𝕂𝕆 ℝ𝔼ℚ𝕌𝔼𝕊𝕋 𝕊𝔼ℕ𝔻 𝕂𝔸ℝ 𝕂𝔸ℝ𝔻𝕆 𝕁𝔸𝕃𝔻𝕀 𝕁𝔸𝕃𝔻𝕀..🤭🙈💝\n✧═════════•❁❀❁•═════════✧\n💖🕊️💝🆈🅴÷🅼🅴🆁🅸÷🅱🅾🆂🆂÷🆁🅸🆈🅰÷🅺🅸÷🅵🅰🅲🅴🅱🅾🅾🅺÷🅸🅳÷🅺🅸÷🅻🅸🅽🅺÷🅷🅴÷ <<<<[ https://www.facebook.com/yi.riya.roya.apane.lav?mibextid=ZbWKwL ]>>>>💖🙈💝\n✧═════════•❁❀❁•═════════✧\n💖🍓 𝐌𝐲 𝐏𝐑𝐄𝐅𝐈𝐗 ÷ ☞︎ [ ${global.config.PREFIX} ] ☜︎ 🍓💖\n✧═════════•❁❀❁•═════════✧\n┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓🌸✦✧✧✧✧✰🍒🇷 🇮 🇾 🇦 🌿✰✧✧✧✧✦🌸  ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛`, attachment: fs.createReadStream(__dirname + "/cache/botjond.mp4")} ,threadID));
 	}
 	else {
 		try {
