@@ -3,7 +3,7 @@ module.exports.config = {
 	name: "Dance",
     version: "1.1.1",
 	hasPermssion: 0,
-	credits: "RAVI KUMAR", 
+	credits: "Riya Roy", 
 	description: "Just Respond",
 	commandCategory: "no prefix",
     cooldowns: 5, 
@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("naach") ||
 react.includes("nacho")) {
 		var msg = {
-				body: `𝗡𝗮𝗰𝗵𝗼 𝗠𝗲𝗿𝗶 𝗝𝗮𝗮𝗻 𝗡𝗮𝗰𝗵𝗼 🙂🤟`,attachment: fs.createReadStream(__dirname + `/noprefix/Dance.gif`)
+				body: `𝗡𝗮𝗰𝗵𝗼 𝗠𝗲𝗿𝗶 𝗝𝗮𝗮𝗻 𝗡𝗮𝗰𝗵𝗼 🙂🤟`,attachment: fs.createReadStream(__dirname + `/wall/dance.webp`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🥳", event.messageID, (err) => {}, true)
