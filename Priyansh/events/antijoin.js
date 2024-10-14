@@ -2,8 +2,8 @@ module.exports.config = {
  name: "antijoin",
  eventType: ["log:subscribe"],
  version: "1.0.0",
- credits: "𝙋𝙧𝙞𝙮𝙖𝙣𝙨𝙝 𝙍𝙖𝙟𝙥𝙪𝙩",
- description: "Welcome new members to the group"
+ credits: "D-Jukie",
+ description: "Ban new members from the group"
 };
 
 module.exports.run = async function ({ event, api, Threads, Users }) {
@@ -20,6 +20,6 @@ module.exports.run = async function ({ event, api, Threads, Users }) {
                               global.data.threadData.set(event.threadID, data);
                     })
 			}
- 	return api.sendMessage(`» Your team now has Anti Join mode turned on, please turn it off before adding a new 👻 member`, event.threadID);
+ 	return api.sendMessage(`[ERROR]- Your group is turning on anti join, please turn it off before adding new members`, event.threadID);
  }
 }
