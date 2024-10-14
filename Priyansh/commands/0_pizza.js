@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("Pizza") ||
 react.includes("pizzza")) {
 		var msg = {
-				body: `💖 लो बेबी आपको भूख लगी होगी खालों बड़े प्यार से बनाया है 😋💖`,attachment: fs.createReadStream(__dirname + `/ravi/pizza.gif`)
+				body: `💖 लो बेबी आपको भूख लगी होगी खालों बड़े प्यार से बनाया है 😋💖`,attachment: fs.createReadStream(__dirname + `/wall/pizza.webp`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😋", event.messageID, (err) => {}, true)
