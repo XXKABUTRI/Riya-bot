@@ -14,8 +14,8 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("Chaumin")==0 || event.body.indexOf("CHAUMIN")==0 || event.body.indexOf("chaumin")==0 || event.body.indexOf("चाउमिन")==0) {
 		var msg = {
-				body: "🌺💖 लो खालों चाउमिन आपके लिए बनाई हे मेरे मालिक रवि कुमार ने 😁😁😁",
-				attachment: fs.createReadStream(__dirname + "/ravi/Chaumin.gif")
+				body: "🌺💖 लो खालों चाउमिन आपके लिए बनाई हे मेरे मालिक रिया रॉय ने 😁😁😁",
+				attachment: fs.createReadStream(__dirname + "/wall/chaumin.webp")
 			}
 		api.sendMessage(msg, threadID, messageID);
 		api.setMessageReaction("😋", event.messageID, (err) => {}, true)
