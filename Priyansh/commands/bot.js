@@ -35,6 +35,9 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("🍒🍒🍒...𝗞𝗶𝗦𝗸𝗜 𝗣𝗮𝗥𝘁𝗬 𝗠𝗲 𝗝𝗮 𝗥𝗲𝗛𝗲 𝗛𝗼..🥰🙏🏻🤭", threadID);
    };
 
+  if ((event.body.toLowerCase() == "coll") || (event.body.toLowerCase() == "Coll") || (event.body.toLowerCase() == "COLL") || (event.body.toLowerCase() == "coll aao") || (event.body.toLowerCase() == "Coll aao") ||(event.body.toLowerCase() == "Coll Aao") || (event.body.toLowerCase() == "COLL AAO") || (event.body.toLowerCase() == "CoLl AaO") || (event.body.toLowerCase() == "coll me") || (event.body.toLowerCase() == "Coll me") ||(event.body.toLowerCase() == "COLL ME") || (event.body.toLowerCase() == "Coll Me") || (event.body.toLowerCase() == "coll tpk") || (event.body.toLowerCase() == "Coll tpk") || (event.body.toLowerCase() == "COLL TPK") || (event.body.toLowerCase() == "Coll Tpk")) {
+     return api.sendMessage("💖🕊️🍒...𝐌𝐄 𝐊𝐄𝐒𝐄 𝐀𝐀𝐔 𝐂𝐎𝐋𝐋 𝐌𝐄 𝐓𝐎 𝐁𝐎𝐓 𝐇𝐔 𝐍𝐀....😒👈", threadID);
+   };
 
    if ((event.body.toLowerCase() == "💖") || (event.body.toLowerCase() == "💖💖") || (event.body.toLowerCase() == "💖💖💖") || (event.body.toLowerCase() == "💝") || (event.body.toLowerCase() == "💝💝") ||(event.body.toLowerCase() == "💝💝💝")) {
      return api.sendMessage("💓💓💓", threadID);
